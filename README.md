@@ -184,7 +184,7 @@ order by ProfitSum desc
 ```sql
 SELECT "Ship_Mode", "Order_Priority", SUM(Shipping_cost) AS ShippingCost
 FROM kmscase
-where "ship_mode" in ('Express air','Delivery truck')
+where "ship_mode" in ('Express air',' Delivery truck')
 GROUP BY [Ship_Mode], [Order_Priority]
 order by ship_mode desc
 ```
@@ -206,4 +206,5 @@ Based on the findings, KMS should focus on the following strategic actions:
 This analysis provides actionable insights to guide KMS towards improved operational efficiency and revenue growth.
 
 ---
+![Dashboard - Amazon case study ](https://github.com/user-attachments/assets/e669ed4f-01a1-41cc-9f4a-dfdc0b0bdc81)
 
